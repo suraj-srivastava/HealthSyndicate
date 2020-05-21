@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Health Syndicate</title>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/2066beafbd.js" crossorigin="anonymous"></script>
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" id="BrandName" href=""><img class="logo-img" src="images/Logo.png" width = 15% alt="logo" color = black> health syndicate</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Our Company</a>
+                <a class="dropdown-item" href="#">Our Values</a>
+                <a class="dropdown-item" href="#">Team</a>
+                <a class="dropdown-item" href="#">Investors and Press</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Solutions
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">For Government Bodies</a>
+                <a class="dropdown-item" href="#">For Medtech/Pharma Bodies</a>
+                <a class="dropdown-item" href="#">For Patients</a>
+                <a class="dropdown-item" href="#">For Pathology Labs/Health Institutes</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta"><button id="Login">Login</button></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="tagline">Collaborate and share for a Healthy Future</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-img" src="images/Top Page.png" alt="iphone-mockup">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+      <div class="feature-box col-lg-3">
+        <img class="icon" src="images/BlockChain.png" alt="BlockChain-logo">
+        <h3 class="feature-title">Uses Blockchain</h3>
+        <p>Platform based on Hyperledger Fabric and next gen tech.</p>
+      </div>
+
+      <div class="feature-box col-lg-3">
+        <img class="icon" src="images/Immutable.png" alt="Immutable-logo">
+        <h3 class="feature-title">Immutable and Secure</h3>
+        <p>All transactions, records stored in a shared ledger which is safe and can't be erased.</p>
+      </div>
+
+      <div class="feature-box col-lg-3">
+        <img class="icon" src="images/Smart Contracts.png" alt="SmartContracts-logo">
+        <h3 class="feature-title">Smart Contracts </h3>
+        <p>Uses consent agreed smart contracts for transaction execution to avoid frauds.</p>
+      </div>
+
+      <div class="feature-box col-lg-3">
+        <img class="icon" src="images/Auditable.png" alt="Auditable-logo">
+        <h3 class="feature-title">Self Auditable and Reliable</h3>
+        <p>Self permissioned blockchain which is self-auditable and reliable so no hassles.</p>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="Logins">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="UseCase-text">Medtech and Pharma Companies login here for access to data on patients, clinical trials,
+            drug development lifecycle tracking, Protocol Management and others.</h2>
+          <img class="testimonial-img" src="images/Pharma.png" alt="Login_Pharma and Medtech">
+          <em><a class="nav-link" href="#cta"><button class="SecureLogin">Secure Login</button></a></em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="UseCase-text">Government Medical Bodies login here for access to worldwide healthcare data and actions on due diligence for drug development and overall protocol management.</h2>
+          <img class="testimonial-img" src="images/Government.png" alt="Login_Government">
+          <em><a class="nav-link" href="#cta"><button class="SecureLogin">Secure Login</button></a></em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="UseCase-text">Patients login here for access to healthcare data, prescriptions and report outcomes and manage consent and permissions for data sharing and collaboration.</h2>
+          <img class="testimonial-img" src="images/Patients.png" alt="Login_Government">
+          <em><a class="nav-link" href="#cta"><button class="SecureLogin">Secure Login</button></a></em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="UseCase-text">Pathology Labs and Hospitals login here for providing patients data to research institutes for clinical trials and drug developments and consent management.</h2>
+          <img class="testimonial-img" src="images/Pathology.png" alt="Login_Government">
+          <em><a class="nav-link" href="#cta"><button class="SecureLogin">Secure Login</button></a></em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-img" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-img" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="section-heading">What broader integration can make possible for you</h2>
+    <p>When it comes to health, you want everything at your fingertips</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <h3>MedTech and Pharma</h3>
+          </div>
+          <div class="card-body">
+            <p>Clinical Trial Collaboration</p>
+            <p>Drug Lifecycle Tracking</p>
+            <p>Protocol Management</p>
+            <p>Pricing, rebates & collection</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up/Login</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <h3>Government Bodies</h3>
+          </div>
+          <div class="card-body">
+            <p>Regulations Management</p>
+            <p>Approvals & Ordinances</p>
+            <p>Lifecycle Tracking</p>
+            <p>Community Reachout</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up/Login</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <h3>Patients and Communities</h3>
+          </div>
+          <div class="card-body">
+            <p>Records Interoperability</p>
+            <p>Prescription Management</p>
+            <p>Consent Management</p>
+            <p>Outcomes & Claims</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up/Login</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <h3>Path Labs and Hospitals</h3>
+          </div>
+          <div class="card-body">
+            <p>Pooled Data Management</p>
+            <p>Consent Management</p>
+            <p>Provider Credentialing</p>
+            <p>Value-Based Care</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up/Login</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <a class="Social-Media" href=""><i class="fab fa-twitter"></i></a>
+    <a class="Social-Media" href=""><i class="fab fa-facebook-f"></i></a>
+    <a class="Social-Media" href=""><i class="fab fa-instagram"></i></a>
+    <a class="Social-Media" href=""><i class="fas fa-envelope"></i></a>
+    <p class="copyright-text">© Copyright 2020 Health Syndicate</p>
+
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
